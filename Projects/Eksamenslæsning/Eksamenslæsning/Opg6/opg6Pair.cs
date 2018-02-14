@@ -1,10 +1,20 @@
-﻿using System;
+﻿using System.Collections.Generic;
 namespace Eksamenslæsning
 {
-	public class opg6Pair
+	class opg6Pair<T>
 	{
-		public opg6Pair()
+		public readonly int first;
+		public readonly int second;
+
+		public opg6Pair(int first, int second)
 		{
+			this.first = first;
+			this.second = second;
+		}
+
+		public opg6Pair<T> Swap()
+		{
+			return new opg6Pair<T>(second, first);
 		}
 	}
 }

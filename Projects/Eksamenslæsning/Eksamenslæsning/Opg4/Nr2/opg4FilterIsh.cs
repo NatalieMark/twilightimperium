@@ -1,10 +1,12 @@
 ﻿using System;
 namespace Eksamenslæsning
 {
-	public class opg4FilterIsh
+	class opg4FilterIsh : opg4PersonFilter
 	{
-		public opg4FilterIsh()
+		public override bool Match(opg4Person person)
 		{
+			// det samme som if(person.Navn == "Thomas") return true; else return false;!
+			return person.name == "Natalie";
 		}
 	}
 }

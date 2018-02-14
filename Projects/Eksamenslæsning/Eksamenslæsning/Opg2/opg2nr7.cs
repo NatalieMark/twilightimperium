@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Eksamenslæsning
 {
-	public class opg7
+	public class opg2nr7
 	{
-		public opg7()
+		public opg2nr7()
 		{
 		}
 

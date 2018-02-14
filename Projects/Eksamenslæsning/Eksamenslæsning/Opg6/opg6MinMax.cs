@@ -1,10 +1,16 @@
 ﻿using System;
 namespace Eksamenslæsning
 {
-	public class opg6MinMax
+	public class opg6MinMax<T>
 	{
-		public opg6MinMax()
+		private T a;
+		private T b;
+
+		public void hello()
 		{
+			
 		}
+
+
 	}
 }

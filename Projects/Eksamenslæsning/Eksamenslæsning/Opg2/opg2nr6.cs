@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Eksamenslæsning
 {
-	public class opg6
+	public class opg2nr6
 	{
-		public opg6(int a, int b, int c, bool t, bool f)
+		public opg2nr6(int a, int b, int c, bool t, bool f)
 		{
 			this.a = a;
 			this.b = b;

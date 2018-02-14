@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Eksamenslæsning
 {
-	public class nr1
+	public class Nr1
 	{
-		public nr1()
+		public Nr1()
 		{
 		}
 
@@ -24,8 +24,6 @@ namespace Eksamenslæsning
 			int c = 8;
 			double d = 6.7;
 			string e = "Har du set Holger?";
-
-			Console.WriteLine($"Opg2:\n{a}\n{b}\n{c}\n{d}\n{e}");
 		}
 
 		public void opg3()
@@ -63,7 +61,16 @@ namespace Eksamenslæsning
 			// Guess a number
 			Console.WriteLine($"Guess a number I generated from 1 - 10");
 			inputNumber = Int32.Parse(Console.ReadLine());
-			Console.WriteLine("hi");
+
+			while (inputNumber != randomNumber)
+			{
+				Console.BackgroundColor = ConsoleColor.Red;
+				Console.ForegroundColor = ConsoleColor.DarkRed;
+				Console.Clear();
+				Console.WriteLine($"Sorry, the generated number was {randomNumber}\n" +
+				                  "Try again (Hint, the number is visible)");
+				inputNumber = Int32.Parse(Console.ReadLine());
+			}
 
 			if (inputNumber == randomNumber)
 			{
@@ -72,13 +79,7 @@ namespace Eksamenslæsning
 				Console.Clear();
 				Console.WriteLine($"Congratulations! You guessed correct!");
 			}
-			else
-			{
-				Console.BackgroundColor = ConsoleColor.Red;
-				Console.ForegroundColor = ConsoleColor.DarkRed;
-				Console.Clear();
-				Console.WriteLine($"Sorry, the generated number was {randomNumber}");
-			}
+
 
 			/*
 			while (inputNumber < 1 && inputNumber > 11)
@@ -107,7 +108,7 @@ namespace Eksamenslæsning
 			try
 			{
 				int tal = int.Parse(Console.ReadLine());
-				Console.WriteLine($"The square root of {tal} if {Math.Sqrt(tal)}");
+				Console.WriteLine($"The square root of {tal} is {Math.Sqrt(tal)}");
 			}
 			catch (FormatException e)
 			{
@@ -121,6 +122,8 @@ namespace Eksamenslæsning
 		{
 			int[] array = { 12, 15, 35, 1, 62, 31, 8 };
 			List<int> lotto = new List<int>() { 12, 15, 35, 1, 62, 31, 8 };
+
+			Console.WriteLine("Lotto numbers:");
 
 			for (int i = 0; i < array.Length; i++)
 			{
@@ -159,17 +162,19 @@ namespace Eksamenslæsning
 			double radian_c = c * (Math.PI / 180);
 
 			// Radianer til grader
-			double grade_x = x * (180 / Math.PI);
-			double grade_y = y * (180 / Math.PI);
-			double grade_z = z * (180 / Math.PI);
+			double grader_x = x * (180 / Math.PI);
+			double grader_y = y * (180 / Math.PI);
+			double grader_z = z * (180 / Math.PI);
 
 			// Printing
+			Console.WriteLine("Radians:");
 			Console.WriteLine($"{radian_a}");
 			Console.WriteLine($"{radian_b}");
 			Console.WriteLine($"{radian_c}");
-			Console.WriteLine($"{grade_x}");
-			Console.WriteLine($"{grade_y}");
-			Console.WriteLine($"{grade_z}");
+			Console.WriteLine("\nDegrees:");
+			Console.WriteLine($"{grader_x}");
+			Console.WriteLine($"{grader_y}");
+			Console.WriteLine($"{grader_z}");
 		}
 
 		public void opg7()
@@ -202,28 +207,13 @@ namespace Eksamenslæsning
 			int number = 0;
 			char star = '*';
 
-			Console.Write("Write an integer: ");
+			Console.Write("Write an integer (Staircase): ");
 			number = Int32.Parse(Console.ReadLine());
 
 			for (int i = 0; i < number; i++)
 			{
 				for (int k = 0; k < i + 1; k++)
 					Console.Write($"{star}");
-
-				for (int j = 0; j < i; j++)
-					Console.Write(" ");
-
-				Console.WriteLine();
-			}
-
-			for (int i = number; i > 0; i--)
-			{
-				for (int k = i; k > 0; k--)
-					Console.Write($"{star}");
-
-				for (int j = i; j > 0; j--)
-					Console.Write(" ");
-
 				Console.WriteLine();
 			}
 		}
@@ -233,17 +223,13 @@ namespace Eksamenslæsning
 			int number = 0;
 			char star = '*';
 
-			Console.Write("Write an integer: ");
+			Console.Write("Write an integer (Opposite staircase): ");
 			number = Int32.Parse(Console.ReadLine());
 
 			for (int i = number; i > 0; i--)
 			{
 				for (int k = i; k > 0; k--)
 					Console.Write($"{star}");
-
-				for (int j = i; j > 0; j--)
-					Console.Write(" ");
-
 				Console.WriteLine();
 			}
 		}

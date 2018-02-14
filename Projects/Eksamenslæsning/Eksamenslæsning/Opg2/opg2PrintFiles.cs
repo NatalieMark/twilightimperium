@@ -3,9 +3,9 @@ using System.IO;
 
 namespace Eksamenslæsning
 {
-	public class PrintFiles
+	public class opg2PrintFiles
 	{
-		public PrintFiles()
+		public opg2PrintFiles()
 		{
 		}
 

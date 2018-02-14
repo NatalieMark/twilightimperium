@@ -1,9 +1,9 @@
 ﻿using System;
 namespace imageSurgery
 {
-	public class PrintAllImagePixels
+	public class PrintAllImagePixels : PictureToMatrix
 	{
-		public PrintAllImagePixels()
+		public PrintAllImagePixels(string Filepath) : this(Filepath, "")
 		{
 		}
 	}

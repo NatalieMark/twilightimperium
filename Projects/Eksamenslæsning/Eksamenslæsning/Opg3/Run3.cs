@@ -6,5 +6,11 @@ namespace Eksamenslæsning
 		public Run3()
 		{
 		}
+
+		public void run()
+		{
+			opg3nr4 o = new opg3nr4();
+			o.Calculator();
+		}
 	}
 }

@@ -5,6 +5,7 @@ namespace imageSurgery
 	{
 		public GaussianBlur()
 		{
+			
 		}
 	}
 }
