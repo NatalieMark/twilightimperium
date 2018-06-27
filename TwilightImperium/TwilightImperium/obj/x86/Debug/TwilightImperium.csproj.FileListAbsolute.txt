@@ -4,3 +4,9 @@
 /Users/nataliemark/Projects/TwilightImperium/TwilightImperium/obj/x86/Debug/TwilightImperium.csproj.CoreCompileInputs.cache
 /Users/nataliemark/Projects/TwilightImperium/TwilightImperium/obj/x86/Debug/TwilightImperium.exe
 /Users/nataliemark/Projects/TwilightImperium/TwilightImperium/obj/x86/Debug/TwilightImperium.pdb
+/Users/nataliemark/Desktop/twilightimperium/TwilightImperium/TwilightImperium/bin/Debug/TwilightImperium.exe
+/Users/nataliemark/Desktop/twilightimperium/TwilightImperium/TwilightImperium/bin/Debug/TwilightImperium.pdb
+/Users/nataliemark/Desktop/twilightimperium/TwilightImperium/TwilightImperium/obj/x86/Debug/TwilightImperium.csprojResolveAssemblyReference.cache
+/Users/nataliemark/Desktop/twilightimperium/TwilightImperium/TwilightImperium/obj/x86/Debug/TwilightImperium.csproj.CoreCompileInputs.cache
+/Users/nataliemark/Desktop/twilightimperium/TwilightImperium/TwilightImperium/obj/x86/Debug/TwilightImperium.exe
+/Users/nataliemark/Desktop/twilightimperium/TwilightImperium/TwilightImperium/obj/x86/Debug/TwilightImperium.pdb

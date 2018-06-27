@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{EE5CA0BA-C45F-40C2-8C09-E2D36A1BC1A5}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TwilightImperium/Unit.cs">
+    <Files>
+      <File FileName="TwilightImperium/Unit.cs" Line="79" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
