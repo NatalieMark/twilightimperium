@@ -43,8 +43,12 @@ namespace TwilightImperium
         bool NeighborIsValid(System newNeighbour)
         {
             ///Checking if newneighbor does not have a neighbor at x + newneigbor = 5
-            newNeighbour.Neighbours.
-            return true;
+            foreach(Neighbour n in newNeighbour.Neighbours)
+            {
+                if (!(Location + n.Location == 5))
+                    return true;
+            }
+            return false;
         }
     }
 }
