@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{EE5CA0BA-C45F-40C2-8C09-E2D36A1BC1A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TwilightImperium/Unit.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TwilightImperium/Neighbour.cs">
     <Files>
-      <File FileName="TwilightImperium/Unit.cs" Line="79" Column="9" />
+      <File FileName="TwilightImperium/Neighbour.cs" Line="45" Column="30" />
+      <File FileName="TwilightImperium/Unit.cs" Line="72" Column="9" NotebookId="1" />
+      <File FileName="TwilightImperium/System.cs" Line="16" Column="9" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

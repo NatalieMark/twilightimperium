@@ -37,6 +37,9 @@
     <Compile Include="Player.cs" />
     <Compile Include="Unit.cs" />
     <Compile Include="Planet.cs" />
+    <Compile Include="System.cs" />
+    <Compile Include="Interfaces\FunctionsInterface.cs" />
+    <Compile Include="Neighbour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />

@@ -8,6 +8,8 @@ namespace TwilightImperium
 
         public Planet(int name, int resourceProduction)
         {
+            _name = name;
+            _resourceProduction = resourceProduction;
         }
 
         public int Name
