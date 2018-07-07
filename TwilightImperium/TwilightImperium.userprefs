@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{EE5CA0BA-C45F-40C2-8C09-E2D36A1BC1A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TwilightImperium/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TwilightImperium/LoadFile.cs">
     <Files>
-      <File FileName="TwilightImperium/Program.cs" Line="1" Column="1" />
-      <File FileName="TwilightImperium/LoadFile.cs" Line="36" Column="14" NotebookId="1" />
+      <File FileName="TwilightImperium/LoadFile.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
@@ -10,6 +9,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TwilightImperium PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
