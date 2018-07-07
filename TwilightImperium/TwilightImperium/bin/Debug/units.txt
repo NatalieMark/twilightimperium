@@ -1,0 +1,5 @@
+units
+Destroyer;1;9;2;0
+Cruiser;2;7;2;0
+Carrier;3;9;1;6
+Dreadnought;5;5;1;0
